@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{<<NEW GUID>>}</ProjectGuid>
+    <RootNamespace><<PROJECT TITLE ON VISUAL STUDIO>></RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Windows 7 ia64 Checked|Win32">
       <Configuration>Windows 7 ia64 Checked</Configuration>
@@ -90,11 +95,6 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <PropertyGroup Label="Globals">
-    <ProjectGuid>{<<NEW GUID>>}</ProjectGuid>
-    <RootNamespace><<PROJECT TITLE ON VISUAL STUDIO>></RootNamespace>
-    <Keyword>MakeFileProj</Keyword>
-  </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Windows 7 ia64 Checked|Win32'" Label="Configuration">
     <ConfigurationType>Makefile</ConfigurationType>
