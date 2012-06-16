@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "<<PROJECT NAME>>", "<<RELATIVE PROJECT FILE PATH FROM SOLUTION DIR>>.vcxproj", "{<<NEW GUID>>}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Checked|Windows 7 ia64 = Checked|Windows 7 ia64
+		Free|Windows 7 ia64 = Free|Windows 7 ia64
+		Checked|Windows 7 x64 = Checked|Windows 7 x64
+		Free|Windows 7 x64 = Free|Windows 7 x64
+		Checked|Windows 7 x86 = Checked|Windows 7 x86
+		Free|Windows 7 x86 = Free|Windows 7 x86
+		Checked|Windows Server 2003 ia64 = Checked|Windows Server 2003 ia64
+		Free|Windows Server 2003 ia64 = Free|Windows Server 2003 ia64
+		Checked|Windows Server 2003 x64 = Checked|Windows Server 2003 x64
+		Free|Windows Server 2003 x64 = Free|Windows Server 2003 x64
+		Checked|Windows Server 2003 x86 = Checked|Windows Server 2003 x86
+		Free|Windows Server 2003 x86 = Free|Windows Server 2003 x86
+		Checked|Windows Vista and Windows Server 2008 ia64 = Checked|Windows Vista and Windows Server 2008 ia64
+		Free|Windows Vista and Windows Server 2008 ia64 = Free|Windows Vista and Windows Server 2008 ia64
+		Checked|Windows Vista and Windows Server 2008 x64 = Checked|Windows Vista and Windows Server 2008 x64
+		Free|Windows Vista and Windows Server 2008 x64 = Free|Windows Vista and Windows Server 2008 x64
+		Checked|Windows Vista and Windows Server 2008 x86 = Checked|Windows Vista and Windows Server 2008 x86
+		Free|Windows Vista and Windows Server 2008 x86 = Free|Windows Vista and Windows Server 2008 x86
+		Checked|Windows XP x86 = Checked|Windows XP x86
+		Free|Windows XP x86 = Free|Windows XP x86
+		Checked|Windows 2000 x86 = Checked|Windows 2000 x86
+		Free|Windows 2000 x86 = Free|Windows 2000 x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{<<NEW GUID>>}.Checked|Windows 7 ia64.ActiveCfg = Windows 7 ia64 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows 7 ia64.Build.0 = Windows 7 ia64 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows 7 ia64.ActiveCfg = Windows 7 ia64 Free|Win32
+		{<<NEW GUID>>}.Free|Windows 7 ia64.Build.0 = Windows 7 ia64 Free|Win32
+		{<<NEW GUID>>}.Checked|Windows 7 x64.ActiveCfg = Windows 7 x64 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows 7 x64.Build.0 = Windows 7 x64 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows 7 x64.ActiveCfg = Windows 7 x64 Free|Win32
+		{<<NEW GUID>>}.Free|Windows 7 x64.Build.0 = Windows 7 x64 Free|Win32
+		{<<NEW GUID>>}.Checked|Windows 7 x86.ActiveCfg = Windows 7 x86 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows 7 x86.Build.0 = Windows 7 x86 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows 7 x86.ActiveCfg = Windows 7 x86 Free|Win32
+		{<<NEW GUID>>}.Free|Windows 7 x86.Build.0 = Windows 7 x86 Free|Win32
+		{<<NEW GUID>>}.Checked|Windows Server 2003 ia64.ActiveCfg = Windows Server 2003 ia64 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows Server 2003 ia64.Build.0 = Windows Server 2003 ia64 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows Server 2003 ia64.ActiveCfg = Windows Server 2003 ia64 Free|Win32
+		{<<NEW GUID>>}.Free|Windows Server 2003 ia64.Build.0 = Windows Server 2003 ia64 Free|Win32
+		{<<NEW GUID>>}.Checked|Windows Server 2003 x64.ActiveCfg = Windows Server 2003 x64 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows Server 2003 x64.Build.0 = Windows Server 2003 x64 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows Server 2003 x64.ActiveCfg = Windows Server 2003 x64 Free|Win32
+		{<<NEW GUID>>}.Free|Windows Server 2003 x64.Build.0 = Windows Server 2003 x64 Free|Win32
+		{<<NEW GUID>>}.Checked|Windows Server 2003 x86.ActiveCfg = Windows Server 2003 x86 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows Server 2003 x86.Build.0 = Windows Server 2003 x86 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows Server 2003 x86.ActiveCfg = Windows Server 2003 x86 Free|Win32
+		{<<NEW GUID>>}.Free|Windows Server 2003 x86.Build.0 = Windows Server 2003 x86 Free|Win32
+		{<<NEW GUID>>}.Checked|Windows Vista and Windows Server 2008 ia64.ActiveCfg = Windows Vista and Windows Server 2008 ia64 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows Vista and Windows Server 2008 ia64.Build.0 = Windows Vista and Windows Server 2008 ia64 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows Vista and Windows Server 2008 ia64.ActiveCfg = Windows Vista and Windows Server 2008 ia64 Free|Win32
+		{<<NEW GUID>>}.Free|Windows Vista and Windows Server 2008 ia64.Build.0 = Windows Vista and Windows Server 2008 ia64 Free|Win32
+		{<<NEW GUID>>}.Checked|Windows Vista and Windows Server 2008 x64.ActiveCfg = Windows Vista and Windows Server 2008 x64 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows Vista and Windows Server 2008 x64.Build.0 = Windows Vista and Windows Server 2008 x64 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows Vista and Windows Server 2008 x64.ActiveCfg = Windows Vista and Windows Server 2008 x64 Free|Win32
+		{<<NEW GUID>>}.Free|Windows Vista and Windows Server 2008 x64.Build.0 = Windows Vista and Windows Server 2008 x64 Free|Win32
+		{<<NEW GUID>>}.Checked|Windows Vista and Windows Server 2008 x86.ActiveCfg = Windows Vista and Windows Server 2008 x86 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows Vista and Windows Server 2008 x86.Build.0 = Windows Vista and Windows Server 2008 x86 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows Vista and Windows Server 2008 x86.ActiveCfg = Windows Vista and Windows Server 2008 x86 Free|Win32
+		{<<NEW GUID>>}.Free|Windows Vista and Windows Server 2008 x86.Build.0 = Windows Vista and Windows Server 2008 x86 Free|Win32
+		{<<NEW GUID>>}.Checked|Windows XP x86.ActiveCfg = Windows XP x86 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows XP x86.Build.0 = Windows XP x86 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows XP x86.ActiveCfg = Windows XP x86 Free|Win32
+		{<<NEW GUID>>}.Free|Windows XP x86.Build.0 = Windows XP x86 Free|Win32
+		{<<NEW GUID>>}.Checked|Windows 2000 x86.ActiveCfg = Windows 2000 x86 Checked|Win32
+		{<<NEW GUID>>}.Checked|Windows 2000 x86.Build.0 = Windows 2000 x86 Checked|Win32
+		{<<NEW GUID>>}.Free|Windows 2000 x86.ActiveCfg = Windows 2000 x86 Free|Win32
+		{<<NEW GUID>>}.Free|Windows 2000 x86.Build.0 = Windows 2000 x86 Free|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

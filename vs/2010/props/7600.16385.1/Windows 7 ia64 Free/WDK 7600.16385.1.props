@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <build>$(ComSpec) /c &quot;scd . &amp;&amp; pushd . &amp;&amp; $(WDK_7600_16385_1)\bin\setenv $(WDK_7600_16385_1) fre ia64 WIN7 no_oacr &amp;&amp; popd &amp;&amp; build&quot;</build>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>_WIN64;_IA64_=1;IA64=1;NO_HW_DETECT;_MSC_EXTENSIONS;CONDITION_HANDLING=1;NT_UP=1;NT_INST=0;WIN32=100;_NT1X_=100;WINNT=1;_WIN32_WINNT=0x0601;WINVER=0x0601;_WIN32_IE=0x0800;WIN32_LEAN_AND_MEAN=1;_MERCED_A0_=1;DEVL=1;__BUILDMACHINE__=WinDDK;FPO=0;NDEBUG;_DLL=1;NTDDI_VERSION=0x06010000;KMDF_MAJOR_VERSION_STRING=01;KMDF_MINOR_VERSION_STRING=009;_STL70_</NMakePreprocessorDefinitions>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakeIncludeSearchPath>$(WDK_7600_16385_1)\inc\crt;$(WDK_7600_16385_1)\inc\api;$(WDK_7600_16385_1)\inc\ddk;$(WDK_7600_16385_1)\inc\api\crt\stl70</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="build">
+      <Value>$(build)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
