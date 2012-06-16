@@ -20,7 +20,7 @@ Take care the template files (sources, .sln, .vcxproj) contain placeholders mark
     The property sheets use custom environment variables to refer to WDK installations instead of
     hardcoded paths, e.g.:
 
-*   *   Variable: WDK_6001_18002   - Sample value: C:\WDK\6001.18002
+*   *   Variable: WDK_6001_18002   - Sample value: C:\WDK\6001.18002  
         Variable: WDK_7600_16385_1 - Sample value: C:\WDK\7600.16385.1
 
     The __WDK_7600_16385_1__ variable refers to a __Windows Driver Kit for Windows 7__ installation,
