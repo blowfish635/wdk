@@ -33,7 +33,7 @@ Take care the template files (sources, .sln, .vcxproj) contain placeholders mark
 ####\tools\
 
 *   Provide some tools.  
-    scd:
+    scd:  
 
 *   *   This batch tool is used to navigate through short path names. Nice to use with the WDK for
         building in directories with spaces. Put it on your path.
