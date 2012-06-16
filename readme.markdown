@@ -18,7 +18,7 @@ Take care the template files (sources, .sln, .vcxproj) contain placeholders mark
     build configuration.
     
     The property sheets use custom environment variables to refer to WDK installations instead of
-    hardcoded paths, e.g.:  
+    hardcoded paths, e.g.:
 
 *   *   Variable: WDK_6001_18002   - Sample value: C:\WDK\6001.18002  
         Variable: WDK_7600_16385_1 - Sample value: C:\WDK\7600.16385.1
@@ -33,7 +33,7 @@ Take care the template files (sources, .sln, .vcxproj) contain placeholders mark
 ####\tools\
 
 *   Provide some tools.  
-    scd:  
+    scd:
 
 *   *   This batch tool is used to navigate through short path names. Nice to use with the WDK for
         building in directories with spaces. Put it on your path.
